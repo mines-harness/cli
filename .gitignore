@@ -1,0 +1,14 @@
+# Release archives belong in GitHub Releases.
+*.tar.gz
+*.zip
+*.dmg
+*.exe
+*.node
+*.sqlite
+*.sqlite3
+*.db
+.env
+.env.*
+.DS_Store
+node_modules/
+audit/
