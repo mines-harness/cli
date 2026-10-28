@@ -1,8 +1,14 @@
 # Mines CLI releases
 
-Release archives for the Mines command-line app and headless host.
+<p><img src="https://raw.githubusercontent.com/mines-harness/macos/main/assets/mines/icon-256.png" width="80" height="80" alt="Mines" /></p>
 
-## Download
+Release archives for the Mines command-line app and headless host. Run your coding agents on the computer that owns the workspace, then connect from an approved Mines client.
+
+[Shared source](https://github.com/mines-harness/macos) · [Desktop](https://github.com/mines-harness/macos) · [Mobile](https://github.com/mines-harness/android)
+
+New desktop and host builds are published together in [unified Mines releases](https://github.com/mines-harness/macos/releases). This repository retains earlier standalone host archives.
+
+## Download earlier CLI releases
 
 Download the archive for your operating system and architecture from [Releases](https://github.com/mines-harness/cli/releases). Each release includes `SHA256SUMS` for its published archives. Compare the checksum before running a download.
 
@@ -35,7 +41,7 @@ The Mines desktop client can use this release repository to install or update it
 
 ## Repository contents
 
-This repository distributes release archives and checksums. It does not contain user data, provider credentials, account sessions, production configuration, or mirrors of the private desktop application repositories. Large runtime archives are attached to releases rather than committed to Git.
+This repository distributes earlier release archives and checksums. Current shared source and the unified release pipeline live in [mines-harness/macos](https://github.com/mines-harness/macos). Runtime archives are attached to releases rather than committed to Git.
 
 ## Licenses
 
